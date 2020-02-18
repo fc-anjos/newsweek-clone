@@ -6,13 +6,20 @@
 
 .main {
   padding: 0 30px 0 30px;
-  background-color: white;
 }
 
 @media (max-width: 992px) {
   .main {
     padding: 0 10px 0 10px;
   }
+}
+
+.container-fluid {
+  background-color: white;
+}
+
+.bg-grey {
+  background-color: #f4f5f7;
 }
 
 .tight {
@@ -73,7 +80,7 @@ h3 a:hover {
 }
 
 .culture-travel {
-  background-color: #f4f5f7;
+  background-color: red;
 }
 
 h2 {
