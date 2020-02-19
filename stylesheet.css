@@ -196,3 +196,32 @@ h4 {
   color: #444;
   font-size: 0.9rem;
 }
+
+.more-stories-card {
+  padding-bottom: 5px;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.more-stories-card p {
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+
+.more-stories-card h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 85%;
+  font-size: 1.1rem;
+}
+
+.more-stories-card h3 a:hover {
+  text-decoration-color: red;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+}
