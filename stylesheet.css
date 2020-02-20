@@ -37,6 +37,24 @@ h4 {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+@media (max-width: 768px) {
+  header svg {
+    height: 1.1rem;
+  }
+}
+
+@media (max-width: 457px) {
+  header svg {
+    height: 0.8rem;
+  }
+}
+
+@media (max-width: 457px) {
+  header a {
+    font-size: 0.8rem;
+  }
+}
+
 body {
   background-color: #f4f5f6;
   font-family: 'Roboto', sans-serif;
@@ -146,11 +164,14 @@ section {
   position: relative;
 }
 
-.category {
+.bottom-0 {
   position: absolute;
-  height: 30px;
-  bottom: 0;
   left: 0;
+  bottom: 0;
+}
+
+.category {
+  height: 30px;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 8px 15px 9px;
   display: flex;
@@ -165,6 +186,10 @@ section {
 
 .fig-container span {
   color: #f72210;
+}
+
+.sticky-top h3 {
+  font-size: 1.3rem;
 }
 
 .opinion img {
@@ -364,4 +389,18 @@ h4 {
 
 .center {
   margin: 0 auto;
+}
+
+.count-link {
+  width: 70px;
+  height: 52px;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+}
+
+.extra-height {
+  height: 150px;
 }
