@@ -14,6 +14,10 @@
   }
 }
 
+.clear {
+  clear: both;
+}
+
 .container-fluid {
   background-color: white;
 }
@@ -200,10 +204,12 @@ section {
   margin-right: 10px;
 }
 
-.latest-news img {
-  width: 135px;
-  height: auto;
-  margin-right: 10px;
+@media (min-width: 768px) {
+  .latest-news img {
+    width: 135px;
+    height: auto;
+    margin-right: 10px;
+  }
 }
 
 .opinion a {
@@ -403,4 +409,18 @@ h4 {
 
 .extra-height {
   height: 150px;
+}
+
+@media (max-width: 767px) {
+  .small-image {
+    width: 258px;
+    height: auto;
+  }
+}
+
+@media (max-width: 481px) {
+  .small-image {
+    width: 150px;
+    height: auto;
+  }
 }
