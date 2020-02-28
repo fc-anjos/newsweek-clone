@@ -42,6 +42,18 @@ nav a {
   text-align: center;
 }
 
+footer a {
+  color: #666;
+}
+
+a:hover {
+  color: black;
+}
+
+.opinion a {
+  line-height: 0.8;
+}
+
 .header-alt a {
   font-size: 1.1rem;
 }
@@ -78,10 +90,6 @@ h3,
 h4,
 .condensed {
   font-family: 'Roboto Condensed', sans-serif;
-}
-
-.header-alt svg {
-  height: 1.5rem;
 }
 
 @media (max-width: 768px) {
@@ -307,18 +315,6 @@ section {
   margin-right: 10px;
 }
 
-/* @media (min-width: 768px) { */
-/*   .latest-news img { */
-/*     width: 135px; */
-/*     height: auto; */
-/*     margin-right: 10px; */
-/*   } */
-/* } */
-
-.opinion a {
-  line-height: 0.8;
-}
-
 .opinion-card {
   border-bottom: 1px solid #eee;
   padding-bottom: 5px;
@@ -473,10 +469,6 @@ h4 {
     position: absolute;
     bottom: -10%;
   }
-}
-
-a:hover {
-  color: black;
 }
 
 .magazine-card h3 {
@@ -657,23 +649,8 @@ footer i {
   margin-right: 10px;
 }
 
-footer a {
-  color: #666;
-}
-
 .second-line {
   font-size: 0.9rem;
-}
-
-.footer ul li a {
-  display: inline-block;
-  font-size: 0.9rem;
-}
-
-footer ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 footer ul li {
@@ -725,4 +702,19 @@ footer ul li {
 h3 a:hover {
   color: black;
   text-decoration-color: #f72210;
+}
+
+.footer ul li a {
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-alt svg {
+  height: 1.5rem;
 }
