@@ -699,6 +699,12 @@ footer ul li {
   background-color: white;
 }
 
+@media (max-width: 991px) {
+  .p30 {
+    padding: 0 15px 0 15px;
+  }
+}
+
 h3 a:hover {
   color: black;
   text-decoration-color: #f72210;
