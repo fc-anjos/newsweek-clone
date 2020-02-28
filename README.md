@@ -1,5 +1,5 @@
 # Responsive-Design
-##  Building a clone of the [newsweek magazined](https://newsweek.com) website
+##  Building a clone of the [newsweek magazine](https://newsweek.com) website
 
 ![Screenshot of the project](screenshot.PNG)
 ### Built With
