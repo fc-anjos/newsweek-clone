@@ -173,11 +173,6 @@ h3 {
   font-size: 1.3rem;
 }
 
-h3 a:hover {
-  color: black;
-  text-decoration-color: #f72210;
-}
-
 .corner {
   background-color: #f72210;
   position: absolute;
@@ -203,7 +198,11 @@ h3 a:hover {
 }
 
 h2 {
-  font-size: 0.9rem;
+  font-size: 1rem;
+}
+
+.text-muted {
+  color: #aaa !important;
 }
 
 section {
@@ -342,7 +341,6 @@ h4 {
 }
 
 .more-stories-card {
-  padding-bottom: 5px;
   padding: 20px 0 20px 0;
   border-bottom: 1px solid #ccc;
 }
@@ -363,10 +361,6 @@ h4 {
   font-family: 'Roboto Condensed', sans-serif;
   width: 85%;
   font-size: 1.1rem;
-}
-
-.more-stories-card h3 a:hover {
-  text-decoration-color: #f72210;
 }
 
 .sticky-top {
@@ -481,7 +475,7 @@ h4 {
   }
 }
 
-.magazine-card a:hover {
+a:hover {
   color: black;
 }
 
@@ -671,8 +665,9 @@ footer a {
   font-size: 0.9rem;
 }
 
-footer a:hover {
-  color: black;
+.footer ul li a {
+  display: inline-block;
+  font-size: 0.9rem;
 }
 
 footer ul {
@@ -683,11 +678,6 @@ footer ul {
 
 footer ul li {
   margin-bottom: 0.7rem;
-}
-
-footer ul li a {
-  display: inline-block;
-  font-size: 0.9rem;
 }
 
 .fa-tumblr {
@@ -727,7 +717,12 @@ footer ul li a {
   }
 }
 
-.minus-15 {
-  /* margin-left: -15px; */
-  /* margin-right: -15px; */
+.p30 {
+  padding: 0 30px 0 30px;
+  background-color: white;
+}
+
+h3 a:hover {
+  color: black;
+  text-decoration-color: #f72210;
 }
