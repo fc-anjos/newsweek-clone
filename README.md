@@ -21,7 +21,7 @@ _Screenshot_
 
 <!-- AUTHORS -->
 ## Authors:
-##### Felipe dos Anjos
+* Felipe dos Anjos
 GitHub: [@fc-anjos](https://github.com/fc-anjos)  
 
 
