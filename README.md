@@ -23,7 +23,7 @@ _Screenshot_
 ## Authors:
 * Felipe dos Anjos  
 GitHub: [@fc-anjos](https://github.com/fc-anjos)  
-LinkedIn: [@Felipe dos Anjos](https://www.linkedin.com/in/felipe-cavalheiro-dos-anjos-4792a8176/)  
+LinkedIn: [Felipe dos Anjos](https://www.linkedin.com/in/felipe-cavalheiro-dos-anjos-4792a8176/)  
 
 
 
