@@ -3,6 +3,9 @@ body {
   margin: 0;
   width: 100vw;
   overflow-x: hidden;
+  background-color: #f4f5f6;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
 }
 
 @media (min-width: 1320px) {
@@ -117,12 +120,6 @@ h4,
   .header-alt a {
     font-size: 0.8rem;
   }
-}
-
-body {
-  background-color: #f4f5f6;
-  font-family: 'Roboto', sans-serif;
-  color: #333;
 }
 
 nav {
@@ -754,4 +751,5 @@ footer ul {
   .w-45 {
     width: 45%;
   }
+}
 }
